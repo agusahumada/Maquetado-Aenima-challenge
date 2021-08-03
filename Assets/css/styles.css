@@ -1,0 +1,500 @@
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  background-color: #FFFFFF;
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+  top: 0px;
+}
+
+.bg-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #2A3037;
+    padding-top: 10px;
+}
+
+.navbar-styles{
+    display: flex;
+    justify-content: end;
+
+}
+
+.font-style{
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #CBD0D3;
+    opacity: 1;
+}
+
+.font-style:hover{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #2A3037;
+    opacity: 1;
+}
+
+
+/* menu hamburguesa */
+
+.sidenav {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2A3037;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#hamburguer-menu{
+  font-size:30px;
+  cursor:pointer;
+}
+
+.menu-mobile{
+  width: 220px;
+  background-color: white;
+  height: 100vh;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 50px;
+}
+
+/* home styles */
+.home-container{
+  background-image: url('../img/Viajes_Hero.jpg');
+  background-position: 40%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  width: 100%;
+}
+
+.home-contents{
+  height: 47px;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #FFFFFF;
+  margin-top: 326px;
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-home{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.icon-pin{
+  width: 11.69px;
+  height: 19px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.p-container{
+  width: 80%;
+  padding-top: 20px;
+}
+
+.paragraph-home{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  text-align: left;
+  margin-left: 39px;
+}
+
+.icon-1-container{
+  margin-top: 173px;
+  margin-bottom: 20px;
+}
+
+.icon-1{
+  width: 30%;
+}
+
+/* SECCION TENDENCIAS */
+#tendencias{
+  background-color: #EBEBEB;
+}
+
+.bg{
+  background-color: #EBEBEB;
+}
+
+.tendencias-container{
+  margin: 40px;
+}
+
+.card{
+  height: 314px;
+}
+
+.img-card{
+  height: 180px;
+}
+
+.new{
+  position: absolute;
+  top: 162px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #FA6980;
+  width: 69px;
+  height: 27px;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  color: #2A3037;
+  letter-spacing: 0px;
+
+}
+
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.paragraph-tendencias{
+  font-size: 13px;
+  font-weight: lighter;
+  color: #7A838D;
+  letter-spacing: 0px;
+}
+
+.bold{
+  font-weight: bold;
+  color:  #7A838D;
+}
+
+/* BLOG-SECCION */
+
+#blog{
+  background-color: #EBEBEB;
+}
+
+#blog-title{
+  margin-left: 50px;
+}
+
+.note {
+  position: relative;
+  color: black;
+}
+
+.bg-image{
+  width: 100%;
+  height: 429px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.font-category{
+  position: absolute;
+  top: 35px;
+  left: 28px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.font-title{
+  position: absolute;
+  bottom: 110px;
+  left: 28px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  border-bottom: 41px;
+}
+
+
+.time-icon{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 60px;
+  left: 27px;
+}
+
+.font-hr{
+  position: absolute;
+  bottom: 43px;
+  left: 49px;
+  color: #CBD0D3;
+  font-size: 13px;
+}
+
+/* FOOTER STYLES */
+
+#bg-footer{
+  background-color: #2A3037;
+  height: 80px;
+}
+
+.logo{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 769px) {
+  #hamburguer-menu{
+    display: none;
+  }
+
+  #desktop-nav{
+    display: flex;
+    width: 100%;
+  }
+
+  .nav-items-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav{
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    top: 0px;
+  }
+
+  .bg-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .nav-links{
+      display: flex;
+      justify-content: space-around;
+      font-size: 18px;
+      padding-top: 20px;
+  }
+  .nav-a{
+    height: 21px;
+    list-style: none;
+    margin: 15px;
+    color: #CBD0D3;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .nav-a:hover{
+    color: #2A3037;
+  }
+
+  /* HOME */
+  .home-container{
+    background-position: 0;
+    background-size: cover;
+    position: relative;
+    top: 74px;
+  }
+  .icon-pin{
+    width: 24px;
+    height: 33px;
+    margin-right: -14px;
+    margin-top: 42px;
+  }
+
+  .title-home{
+    font-size: 48px;
+    margin: 30px;
+    font-weight: bold;
+  }
+  .home-contents{
+    width: 70%;
+    margin-left: 10%;
+    padding-bottom: 7%;
+    border-bottom: none;
+  }
+
+  .paragraph-home{
+    margin-left: 93px;
+    font-size: xx-large;
+  }
+  .icon-1-container{
+    margin-top: 253px;
+    margin-bottom: 61px;
+  }
+  .icon-1{
+    width: 14%;
+  }
+
+  /* TENDENCIAS */
+ .bg{
+   display: none;
+ }
+
+  .title{
+    padding-top: 10%;
+    padding-left: 194px;
+    background-color: #EBEBEB;
+    padding-bottom: 20px;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .tendencias-desktop{
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    height: 404px;
+  }
+
+  .new{
+    padding: 6px;
+    width: 82px;
+    top: 199px
+  }
+  .card-body{
+    padding-top: 35px;
+    padding-left: 47px;
+
+  }
+
+  .img-card{
+    height: 212px;
+  }
+
+  .card-title{
+    margin-top: 20px;
+  }
+
+  .paragraph-tendencias{
+    font-size: 16px;
+  }
+
+  /* BLOG  */
+  #blog{
+    width: 100%;
+  }
+
+  #blog-title{
+  margin-left: 50px;
+}
+
+  .note-desktop{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bg-image{
+      height: 513px;
+  }
+
+  .blog-img-card{
+    height: 270px;
+    object-fit: cover;
+  }
+
+  .note-description{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 51px;
+    left: 26px;
+  }
+
+  .time-icon{
+    bottom: 40px;
+
+  }
+  .font-hr{
+    bottom: 25px;
+  }
+  
+  footer{
+    width: 100%;
+    height: 400px;
+  }
+  .icons-social-media{
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #desktop-tendencias, #nav-desktop, .tendencias-desktop, .note-desktop{
+    display: none;
+  }
+  .icons-social-media{
+    margin-top: 20px;
+  }
+  .nav{
+    position: fixed;
+  }
+  .blog-title{
+    margin-left: 75px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    color: #2A3037;
+    letter-spacing: 0px;
+  }
+}
+
